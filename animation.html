@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Justice Victoriano Animation</title>
+    <link rel="stylesheet" href="animation.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600;900&display=swap" rel="stylesheet">
+     <link rel="shortcut icon" type="image/png" href="Images/Logo.svg">
+
+</head>
+
+<body>
+    
+    <div class="wrapper">
+        <header>
+            <nav>
+                <div class="menu-icon">
+                    <i class="fa fa-bars fa-2x"></i>
+                </div>
+                <div class="logo">
+                    <a href="index.html"><img src="Images/Logo.svg"></a>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="design.html">DESIGN</a></li>
+                        <li><a href="video.html">VIDEO</a></li>
+                        <li><a href="animation.html">ANIMATION</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+        
+        
+    <div class="content">
+        <div class="grid-container">
+                <div class="title">
+                    <h1>ANIMATION</h1>
+                </div>
+                  <div class="motiongraphics">
+                    <h2>IF I COULD GET OUT OF THIS PLACE</h2>
+                    <p>An animation created in After Effects about a hopeless woman longing to escape her reality.</p>
+                    <a href="motiongraphics.html" class="button">LEARN MORE</a>
+                </div>
+                <div class="motiongraphics-work">
+                    <iframe src="https://player.vimeo.com/video/465237555" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                </div>
+                <div class="animation2d">
+                    <h2>2D ANIMATION</h2>
+                    <p>A hand-drawn frame-by-frame animation about an impoverished Filipino family.</p>
+            
+                    <a href="2d-animation.html" class="button">LEARN MORE</a>
+                </div>
+                <div class="animation2d-work">
+                    <iframe width="640" height="360" src="https://www.youtube.com/embed/oHWs16z_8wc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="animation3d">
+                    <div class="animation3d-description">
+                        <h2>3D ANIMATION</h2>
+                        <p>A copperband butterfly fish modeled and animated in Maya.</p>
+                        <a href="3d-animation.html" class="button">LEARN MORE</a>
+                    </div>
+                </div>
+                <div class="animation3d-work">
+                    <iframe width="640" height="360" src="https://www.youtube.com/embed/uERm3wym7Fg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+         </div>
+    </div>
+    
+       
+    <div class="footer">
+        <div class="grid-container-3">
+            <div class="footer-icons">
+                <a href="mailto:justicevictoriano11498@gmail.com"><img src="Images/email-icon-footer.svg"></a>
+                <a href="https://www.linkedin.com/in/justice-victoriano-abb01215a" target="_blank"> <img src="Images/linkedin-footer.svg"></a>
+            </div>
+            <div class="hand-coded">
+                <p>This site was designed and hand-coded by Justice Victoriano.
+                </p>
+            </div>
+        </div>
+    </div>
+            
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                $("nav ul").toggleClass("showing");
+            });
+
+        });
+
+        $(window).on("scroll", function() {
+            if ($(window).scrollTop()) {
+                $('nav').addClass('black');
+            } else {
+                $('nav').removeClass('black');
+            }
+        })
+    </script>
+</body>
+</html>

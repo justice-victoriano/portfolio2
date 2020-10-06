@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>if i could get out of this place</title>
+    <link rel="stylesheet" href="motiongraphics.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="Images/Logo.svg">
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header>
+            <nav>
+                <div class="menu-icon">
+                    <i class="fa fa-bars fa-2x"></i>
+                </div>
+                <div class="logo">
+                    <a href="index.html"><img src="Images/Logo.svg"></a>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="design.html">DESIGN</a></li>
+                        <li><a href="video.html">VIDEO</a></li>
+                        <li><a href="animation.html">ANIMATION</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <div class="content">
+        <div class="grid-container">
+            <div class="work">
+                <h2>IF I COULD GET OUT OF THIS PLACE</h2>
+                <p>I was inspired by Billy Joel's "Piano Man," which is a song about hopeless and unfulfilled people who congregate at a bar and request songs from the piano man to temporarily relieve them of their burdens. This animation features a character inspired by the song: a hopeless woman longing to escape her reality. Her desire to break free from her situation is represented in the smoke of the cigarette which transforms into symbols of freedom. 
+         </p>
+
+              <!--  <div class="work-2">
+                    <h3>YEAR</h3>
+                    <p>2020</p>
+                    <h3>SOFTWARES USED</h3>
+                    <p>After Effects
+                        <br> Photoshop
+                    </p>
+                </div>
+-->
+            </div>
+            <div class="side-info">
+                <h3>YEAR</h3>
+                <p>2020</p>
+                <h3>SOFTWARES USED</h3>
+                <p>After Effects
+                    <br> Photoshop
+                </p>
+            </div>
+            <div class="picture">
+      <iframe src="https://player.vimeo.com/video/465237555" width="864" height="486" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            </div>
+            <div class="writing">
+
+                <div class="subtitle">
+                    <h2>THE PROCESS</h2>
+                </div>
+
+                <div class="description">
+                    <p>The hand, woman, and dandelions are all hand-drawn in Photoshop while the rest of the assets are made in After Effects. The song in the animation is the instrumental version of Joji's "Slow Dancing in the Dark." I chose this song because it captures the dream-like feeling that I wanted to convey in the animation.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="grid-container2">
+        <div class="process-pic-1">
+            <img src="Images/Motiongraphics/storyboard-1.jpg">
+        </div>
+        <div class="process-pic-2">
+            <img src="Images/Motiongraphics/storyboard-2.jpg">
+        </div>
+        <div class="process-pic-3">
+            <img src="Images/Motiongraphics/Blur%20Motion%20Graphics.png">
+        </div>
+        <div class="caption-1">
+            <p>Original Storyboards. Several revisions were made during the production proccess. 
+            </p>
+        </div>
+        <div class="caption-2">
+            <p>
+            </p>
+        </div>
+        <div class="caption-3">
+            <p>
+            My Workspace.       
+            </p>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="grid-container-3">
+            <div class="footer-icons">
+                <a href="mailto:justicevictoriano11498@gmail.com"><img src="Images/email-icon-footer.svg"></a>
+                <a href="https://www.linkedin.com/in/justice-victoriano-abb01215a" target="_blank"> <img src="Images/linkedin-footer.svg"></a>
+            </div>
+            <div class="hand-coded">
+                <p>This site was designed and hand-coded by Justice Victoriano.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                $("nav ul").toggleClass("showing");
+            });
+
+        });
+
+        $(window).on("scroll", function() {
+            if ($(window).scrollTop()) {
+                $('nav').addClass('black');
+            } else {
+                $('nav').removeClass('black');
+            }
+        })
+    </script>
+
+</body>
+
+</html>

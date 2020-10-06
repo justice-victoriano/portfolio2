@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Type Specimen Booklet</title>
+    <link rel="stylesheet" href="type-specimen.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="Images/Logo.svg">
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header>
+            <nav>
+                <div class="menu-icon">
+                    <i class="fa fa-bars fa-2x"></i>
+                </div>
+                <div class="logo">
+                    <a href="index.html"><img src="Images/Logo.svg"></a>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="design.html">DESIGN</a></li>
+                        <li><a href="video.html">VIDEO</a></li>
+                        <li><a href="animation.html">ANIMATION</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <div class="content">
+        <div class="grid-container">
+            <div class="work">
+                <h2>TYPE SPECIMEN BOOKLET</h2>
+                <p>I did in-depth research on the Garamond typeface and in conjuction with my 6 page research paper, I created an 8 page type specimen booklet that showcases the letterforms, numerals, and punctuation of the font. It also includes information about the designer as well as key points about the history of the typeface.
+                </p>
+
+                <div class="work-2">
+                    <h3>YEAR</h3>
+                    <p>2019</p>
+                    <h3>SOFTWARES USED</h3>
+                    <p>Illustrator
+                    <br> Indesign
+                </p>
+                </div>
+            </div>
+            <div class="side-info">
+                <h3>YEAR</h3>
+                <p>2019</p>
+                <h3>SOFTWARES USED</h3>
+                <p>Illustrator
+                    <br> Indesign
+                </p>
+            </div>
+            <div class="picture">
+                <img src="Images/Type-Specimen/garamond1.jpg">
+            </div>   
+            
+            <div class="writing">
+               
+            <div class="subtitle">
+                 <h2>FEATURES</h2>
+            </div>
+               
+            <div class="description">
+                <p>The brochure features a gatefold that opens to a timeline that contains significant dates about the creation and evolution of Garamond. The images on the brochure were created using parts of the actual letterforms of Garamond. I primarily used sections of the letters O, C, I, S, and J.</p>
+            </div>
+
+        </div>
+  </div>
+    </div>
+
+    <div class="grid-container2">
+        <div class="process-pic-1">
+            <img src="Images/Type-Specimen/garamond2.jpg">
+        </div>
+        <div class="process-pic-2">
+            <img src="Images/Type-Specimen/garamond3.jpg">
+        </div>
+        <div class="process-pic-3">
+            <img src="Images/Type-Specimen/garamond4.jpg">
+        </div>
+        <div class="process-pic-4">
+            <img src="Images/Type-Specimen/garamond5.jpg">
+        </div>
+        <div class="process-pic-5">
+            <img src="Images/Type-Specimen/garamond6.jpg">
+        </div>
+        <div class="caption-1">
+            <p>Placed in the center of the gatefold is the crest from Harry Potter. The Harry Potter book series uses Garamond, as it is considered to be one of the most legible and timeless fonts.
+            </p>
+        </div>
+        <div class="caption-2">
+        </div>
+        <div class="caption-3">
+            <p>I formed a timeline structure by extending the ear of the lowercase ‘g’ to the ‘O’.
+            </p>
+        </div>
+        <div class="caption-4">
+            <p>There has been confusion as to who should be credited for the creation of the typeface. The font is named after the Parisian punch-cutter, Claude Garamond, but the Garamond revivals that are commonly used today were actually created by a designer named Jean Jannon.
+                </p>
+        </div>
+        <div class="caption-5">
+            <p>The back of the brochure shows a distorted face of a man, but if you take a closer look, two distinct faces can be identified. I combined the faces of Claude Garamond and Jean Jannon to depict the confusion behind who the true creator of the typeface is.</p>
+        </div>
+    </div>
+
+
+    
+    <div class="footer">
+        <div class="grid-container-3">
+            <div class="footer-icons">
+                <a href="mailto:justicevictoriano11498@gmail.com"><img src="Images/email-icon-footer.svg"></a>
+                <a href="https://www.linkedin.com/in/justice-victoriano-abb01215a" target="_blank"> <img src="Images/linkedin-footer.svg"></a>
+            </div>
+            <div class="hand-coded">
+                <p>This site was designed and hand-coded by Justice Victoriano.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                $("nav ul").toggleClass("showing");
+            });
+
+        });
+
+        $(window).on("scroll", function() {
+            if ($(window).scrollTop()) {
+                $('nav').addClass('black');
+            } else {
+                $('nav').removeClass('black');
+            }
+        })
+    </script>
+
+</body>
+
+</html>
