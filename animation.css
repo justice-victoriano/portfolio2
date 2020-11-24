@@ -442,10 +442,11 @@ nav ul li a {
     .grid-container {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: auto auto auto auto auto auto;
+        grid-template-rows: 3.7% auto auto auto auto auto;
         grid-gap: 50px 1px;
         grid-template-areas: "title" "neighbors" "neighbors-work" "motiongraphics" "motiongraphics-work" "animation2d" "animation2d-work" "animation3d" "animation3d-work";
     }
+    
 
 
     .title h1 {
@@ -655,6 +656,11 @@ nav ul li a {
         font-size: 15px;
 
     }
+    
+    .grid-container {
+        grid-template-rows: 3.7% auto auto auto auto auto auto auto;
+    }
+    
      .neighbors h2 {
         font-size: 25px;
 
@@ -793,7 +799,7 @@ nav ul li a {
 
 
     .grid-container {
-        grid-template-rows: 6.5% auto auto auto auto auto auto auto;
+        grid-template-rows: 3.7% auto auto auto auto auto auto auto;
     }
 
     .title h1 {
