@@ -84,9 +84,9 @@ nav ul li a {
 .grid-container {
     display: grid;
     grid-template-columns: 36.5% 1fr 1fr;
-    grid-template-rows: 6.5% 1fr 1fr 1fr 80px;
+    grid-template-rows: 4.5% 1fr 1fr 1fr 1fr 80px;
     grid-gap: 160px 50px;
-    grid-template-areas: "title title title" "motiongraphics motiongraphics-work motiongraphics-work" "animation2d animation2d-work animation2d-work" "animation3d animation3d-work animation3d-work";
+    grid-template-areas: "title title title" "neighbors neighbors-work neighbors-work" "motiongraphics motiongraphics-work motiongraphics-work" "animation2d animation2d-work animation2d-work" "animation3d animation3d-work animation3d-work";
 }
 /*
 .grid-container * {
@@ -120,7 +120,6 @@ nav ul li a {
     margin: 10px 0px;
     cursor: pointer;
     border-radius: 5px;
-
 }
 
 .button:hover {
@@ -135,6 +134,42 @@ nav ul li a {
     background-color: #ffee3c;
     padding: 2% 0% 2% 0%;
     margin: 0% 0% 0% 0%;
+}
+
+
+.neighbors {
+    grid-area: neighbors;
+    margin-left: 34%;
+
+}
+
+.neighbors h2 {
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 0%;
+
+}
+
+.neighbors p {
+    font-weight: 300;
+}
+
+.neighbors-work {
+    grid-area: neighbors-work;
+    overflow: hidden;
+    padding-bottom: 46%;
+    position: relative;
+    height: 0;
+    margin-right: 20%;
+}
+
+.neighbors-work iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
 }
 
 .motiongraphics {
@@ -407,15 +442,54 @@ nav ul li a {
     .grid-container {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: auto auto auto auto auto;
+        grid-template-rows: auto auto auto auto auto auto;
         grid-gap: 50px 1px;
-        grid-template-areas: "title" "motiongraphics" "motiongraphics-work" "animation2d" "animation2d-work" "animation3d" "animation3d-work";
+        grid-template-areas: "title" "neighbors" "neighbors-work" "motiongraphics" "motiongraphics-work" "animation2d" "animation2d-work" "animation3d" "animation3d-work";
     }
 
 
     .title h1 {
         font-size: 60px;
     }
+    
+    
+
+    .neighbors {
+        grid-area: neighbors;
+        margin-left: 8%;
+
+    }
+    .neighbors h2 {
+        font-size: 25px;
+
+    }
+    .neighbors p {
+
+        font-size: 20px;
+        width: 90%;
+    }
+
+    .neighbors-work {
+        grid-area: neighbors-work;
+        overflow: hidden;
+        padding-bottom: 47%;
+        position: relative;
+        height: 0;
+        margin-right: 8.5%;
+        margin-left: 8.5%;
+
+
+    }
+
+    .neighbors-work iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+
+    }
+
     
     
 
@@ -581,6 +655,16 @@ nav ul li a {
         font-size: 15px;
 
     }
+     .neighbors h2 {
+        font-size: 25px;
+
+    }
+    .neighbors p {
+
+        font-size: 17px;
+        width: 90%;
+    }
+
     
     .motiongraphics h2 {
         font-size: 25px;
@@ -714,6 +798,13 @@ nav ul li a {
 
     .title h1 {
         font-size: 50px;
+    }
+    
+    
+     .neighbors {
+        grid-area: neighbors;
+        margin-left: 8%;
+
     }
     
      .motiongraphics {
@@ -903,9 +994,9 @@ nav ul li a {
     .grid-container {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 7.5% auto auto auto auto;
+        grid-template-rows: 7.5% auto auto auto auto auto;
         grid-gap: 50px 1px;
-        grid-template-areas: "title" "motiongraphics" "motiongraphics-work" "animation2d" "animation2d-work" "animation3d" "animation3d-work";
+        grid-template-areas: "title" "neighbors" "neighbors-work" "motiongraphics" "motiongraphics-work" "animation2d" "animation2d-work" "animation3d" "animation3d-work";
     }
 
 
@@ -913,6 +1004,41 @@ nav ul li a {
         font-size: 50px;
     }
     
+    .neighbors {
+        grid-area: neighbors;
+        margin-left: 8%;
+
+    }
+    .neighbors h2 {
+        font-size: 25px;
+
+    }
+    .neighbors p {
+        font-size: 17px;
+        width: 90%;
+    }
+
+    .neighbors-work {
+        grid-area: neighbors-work;
+        overflow: hidden;
+        padding-bottom: 47%;
+        position: relative;
+        height: 0;
+
+        margin-right: 8.5%;
+        margin-left: 8.5%;
+
+
+    }
+
+    .neighbors-work iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+
+    }
     .motiongraphics {
         grid-area: motiongraphics;
         margin-left: 8%;
