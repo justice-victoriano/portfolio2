@@ -490,7 +490,7 @@ nav ul li a {
 @media screen and (max-width: 1024px) and (orientation:portrait) {
 
     header {
-        background: url(Images/Mobile-Background-v2.svg) no-repeat 100%;
+        background: url(Images/Mobile-Background-v2.png) no-repeat 100%;
         background-size: cover;
     }
 
