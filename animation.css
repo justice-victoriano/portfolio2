@@ -84,9 +84,9 @@ nav ul li a {
 .grid-container {
     display: grid;
     grid-template-columns: 36.5% 1fr 1fr;
-    grid-template-rows: 4.5% 1fr 1fr 1fr 1fr 80px;
+    grid-template-rows: 4.5% 1fr 1fr 1fr 1fr 1fr 80px;
     grid-gap: 160px 50px;
-    grid-template-areas: "title title title" "neighbors neighbors-work neighbors-work" "motiongraphics motiongraphics-work motiongraphics-work" "animation2d animation2d-work animation2d-work" "animation3d animation3d-work animation3d-work";
+    grid-template-areas: "title title title" "rovers rovers-work rovers-work" "neighbors neighbors-work neighbors-work" "motiongraphics motiongraphics-work motiongraphics-work" "animation2d animation2d-work animation2d-work" "animation3d animation3d-work animation3d-work";
 }
 /*
 .grid-container * {
@@ -136,6 +136,41 @@ nav ul li a {
     margin: 0% 0% 0% 0%;
 }
 
+
+.rovers {
+    grid-area: rovers;
+    margin-left: 34%;
+
+}
+
+.rovers h2 {
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 0%;
+
+}
+
+.rovers p {
+    font-weight: 300;
+}
+
+.rovers-work {
+    grid-area: rovers-work;
+    overflow: hidden;
+    padding-bottom: 46%;
+    position: relative;
+    height: 0;
+    margin-right: 20%;
+}
+
+.rovers-work iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+
+}
 
 .neighbors {
     grid-area: neighbors;
@@ -343,7 +378,23 @@ nav ul li a {
     .title h1 {
         font-size: 80px;
     }
-    
+    .rovers h2 {
+        font-size: 35px;
+
+    }
+    .rovers p {
+        font-size: 25px;
+        width: 90%;
+    }
+     .neighbors h2 {
+        font-size: 35px;
+
+    }
+    .neighbors p {
+        font-size: 25px;
+        width: 90%;
+    }
+
      .motiongraphics h2 {
         font-size: 35px;
 
@@ -442,18 +493,51 @@ nav ul li a {
     .grid-container {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 3.7% auto auto auto auto auto;
+        grid-template-rows: 3.7% auto auto auto auto auto auto;
         grid-gap: 50px 1px;
-        grid-template-areas: "title" "neighbors" "neighbors-work" "motiongraphics" "motiongraphics-work" "animation2d" "animation2d-work" "animation3d" "animation3d-work";
+        grid-template-areas: "title" "rovers" "rovers-work" "neighbors" "neighbors-work" "motiongraphics" "motiongraphics-work" "animation2d" "animation2d-work" "animation3d" "animation3d-work";
     }
-    
 
 
     .title h1 {
         font-size: 60px;
     }
     
-    
+    .rovers {
+        grid-area: rovers;
+        margin-left: 8%;
+
+    }
+    .rovers h2 {
+        font-size: 25px;
+
+    }
+    .rovers p {
+
+        font-size: 20px;
+        width: 90%;
+    }
+
+    .rovers-work {
+        grid-area: rovers-work;
+        overflow: hidden;
+        padding-bottom: 47%;
+        position: relative;
+        height: 0;
+        margin-right: 8.5%;
+        margin-left: 8.5%;
+
+
+    }
+
+    .rovers-work iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+
+    }
 
     .neighbors {
         grid-area: neighbors;
@@ -651,16 +735,29 @@ nav ul li a {
     nav ul li a {
         font-size: 20px;
     }
+    
+    
+    .grid-container {
+        grid-template-rows: 3.7% auto auto auto auto auto;
+    }
+    
+    
 
     .button {
         font-size: 15px;
 
     }
     
-    .grid-container {
-        grid-template-rows: 3.7% auto auto auto auto auto auto auto;
+     .rovers h2 {
+        font-size: 25px;
+
     }
-    
+    .rovers p {
+
+        font-size: 17px;
+        width: 90%;
+    }
+
      .neighbors h2 {
         font-size: 25px;
 
@@ -799,13 +896,18 @@ nav ul li a {
 
 
     .grid-container {
-        grid-template-rows: 3.7% auto auto auto auto auto auto auto;
+        grid-template-rows: 3.7% auto auto auto auto auto auto auto auto;
     }
 
     .title h1 {
         font-size: 50px;
     }
     
+     .rovers {
+        grid-area: rovers;
+        margin-left: 8%;
+
+    }
     
      .neighbors {
         grid-area: neighbors;
@@ -1000,14 +1102,51 @@ nav ul li a {
     .grid-container {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 7.5% auto auto auto auto auto;
+        grid-template-rows: 3% auto auto auto auto auto auto;
         grid-gap: 50px 1px;
-        grid-template-areas: "title" "neighbors" "neighbors-work" "motiongraphics" "motiongraphics-work" "animation2d" "animation2d-work" "animation3d" "animation3d-work";
+        grid-template-areas: "title" "rovers" "rovers-work""neighbors" "neighbors-work" "motiongraphics" "motiongraphics-work" "animation2d" "animation2d-work" "animation3d" "animation3d-work";
     }
 
 
     .title h1 {
         font-size: 50px;
+    }
+    
+    
+    .rovers {
+        grid-area: rovers;
+        margin-left: 8%;
+
+    }
+    .rovers h2 {
+        font-size: 25px;
+
+    }
+    .rovers p {
+        font-size: 17px;
+        width: 90%;
+    }
+
+    .rovers-work {
+        grid-area: rovers-work;
+        overflow: hidden;
+        padding-bottom: 47%;
+        position: relative;
+        height: 0;
+
+        margin-right: 8.5%;
+        margin-left: 8.5%;
+
+
+    }
+
+    .rovers-work iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+
     }
     
     .neighbors {
