@@ -1,0 +1,145 @@
+ <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rovers</title>
+    <link rel="stylesheet" href="rovers.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="Images/Logo.svg">
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header>
+            <nav>
+                <div class="menu-icon">
+                    <i class="fa fa-bars fa-2x"></i>
+                </div>
+                <div class="logo">
+                    <a href="index.html"><img src="Images/Logo.svg"></a>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="design.html">DESIGN</a></li>
+                        <li><a href="video.html">VIDEO</a></li>
+                        <li><a href="animation.html">ANIMATION</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <div class="content">
+        <div class="grid-container">
+            <div class="work">
+                <h2>ROVERS</h2>
+                <p>The animation was inspired by Curiosity, the Mars Rover who sings "Happy Birthday" to itself on the anniversary of its landing. Rovers functions as a backstory for this real life event. 
+         </p>
+
+              <!--  <div class="work-2">
+                    <h3>YEAR</h3>
+                    <p>2020</p>
+                    <h3>SOFTWARES USED</h3>
+                    <p>After Effects
+                        <br> Photoshop
+                    </p>
+                </div>
+-->
+            </div>
+            <div class="side-info">
+                <h3>YEAR</h3>
+                <p>2020</p>
+                <h3>SOFTWARES USED</h3>
+                <p>After Effects
+                    <br> Photoshop
+                </p>
+            </div>
+            <div class="picture">
+   
+                    <iframe src="https://player.vimeo.com/video/510256211" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            </div>
+            <div class="writing">
+
+                <div class="subtitle">
+                    <h2>THE PROCESS</h2>
+                </div>
+
+                <div class="description">
+                    <p> All the assets were drawn in Photoshop and were then brought into After Effects where they were arranged in a 3D space. I wanted the animation to have a storybook feel, which was why it was written in third person. The narration was done by Megan Rulon.  
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="grid-container2">
+        <div class="process-pic-1">
+            <img src="Images/Rovers/process-pic-1.png">
+        </div>
+        <div class="process-pic-2">
+            <img src="Images/Rovers/process-pic-2.png">
+        </div>
+        <div class="process-pic-3">
+            <img src="Images/Rovers/process-pic-3.png">
+        </div>
+        <div class="caption-1">
+            <p>Assets were drawn in Photoshop. 
+            </p>
+        </div>
+        <div class="caption-2">
+            <p>
+            Assets were made into a 3D Layers.
+            </p>
+        </div>
+        <div class="caption-3">
+            <p>
+           Characters were animated using the puppet tool.     
+            </p>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="grid-container-3">
+            <div class="footer-icons">
+                <a href="mailto:justicevictoriano11498@gmail.com"><img src="Images/email-icon-footer.svg"></a>
+                <a href="https://www.linkedin.com/in/justice-victoriano-abb01215a" target="_blank"> <img src="Images/linkedin-footer.svg"></a>
+            </div>
+            <div class="hand-coded">
+                <p>This site was designed and hand-coded by Justice Victoriano.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                $("nav ul").toggleClass("showing");
+            });
+
+        });
+
+        $(window).on("scroll", function() {
+            if ($(window).scrollTop()) {
+                $('nav').addClass('black');
+            } else {
+                $('nav').removeClass('black');
+            }
+        })
+    </script>
+
+</body>
+
+</html>
