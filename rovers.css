@@ -1,0 +1,1395 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+}
+
+
+.logo {
+    position: fixed;
+    float: left;
+    width: 5%;
+    margin-left: 2%;
+    margin-top: 1.6%;
+
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    margin-top: 0%;
+    z-index: 100;
+
+
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+    color: white;
+    padding-top: 3%;
+    padding-bottom: 4%;
+    padding-right: 3%;
+    text-align: right;
+    margin: 0;
+    transition: .5s;
+
+}
+
+nav.black ul {
+    background: white;
+    box-shadow: 0px 10px 12px -2px rgba(0, 0, 0, .1);
+
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 0%;
+    padding-left: 4%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #3E424B;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.menu-icon {
+    width: 100%;
+    background: white;
+    text-align: right;
+    box-sizing: border-box;
+    padding-top: 7%;
+    padding-right: 7%;
+    cursor: pointer;
+    color: #7bc6d1;
+    display: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.content .grid-container {
+    padding-top: 9%;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-gap: 100px 1px;
+    grid-template-areas: "work work side-info" "picture picture picture" "writing writing writing";
+}
+
+.work {
+    grid-area: work;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
+.work h2 {
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 2%
+}
+
+.work p {
+    font-weight: 300;
+    width: 100%;
+}
+
+.work a{
+    color:#7bc6d1;
+    font-weight: 600;
+    
+}
+
+.work a:link{
+    text-decoration: none;
+}
+
+.work a:visited{
+     text-decoration: none;
+}
+
+
+
+.work-2 {
+    display: none;
+}
+
+.side-info {
+    grid-area: side-info;
+    margin-top: 4%;
+    margin-left: 20%;
+}
+
+.side-info h3 {
+    font-weight: 600;
+    margin-bottom: 0%;
+    margin-top: 4%;
+
+}
+
+.side-info p {
+    font-weight: 300;
+    padding: 0%;
+    margin: 0;
+    font-size: 16px;
+}
+
+
+.picture {
+    grid-area: picture;
+    overflow: hidden;
+    padding-bottom: 30%;
+    position: relative;
+    height: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 0%;
+}
+
+.picture iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.writing {
+    grid-area: writing;
+    background-color: #ffee3c;
+}
+
+.subtitle h2 {
+    font-weight: 300;
+    color: black;
+    font-size: 20px;
+    width: 10%;
+    margin-top: 5%;
+    margin-left: 10%;
+    position: absolute;
+}
+
+.description p {
+    font-weight: 300;
+    font-size: 16px;
+    padding-top: 4%;
+    padding-bottom: 5%;
+    margin-left: 30%;
+    width: 60%;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-gap: 50px 1px;
+    grid-template-areas: "process-pic-1 process-pic-1 caption-1" "process-pic-2 process-pic-2 caption-2" "process-pic-3 process-pic-3 caption-3";
+}
+
+.process-pic-1 {
+    grid-area: process-pic-1;
+    margin-top: 17.5%;
+}
+
+.process-pic-1 img {
+    width: 70%;
+    margin-left: 20%;
+
+}
+
+.process-pic-2 {
+    grid-area: process-pic-2;
+
+}
+
+.process-pic-2 img {
+    width: 70%;
+    margin-left: 20%;
+    padding-bottom: 0%;
+}
+
+.process-pic-3 {
+    grid-area: process-pic-3;
+}
+
+.process-pic-3 img {
+    width: 70%;
+    margin-left: 20%;
+}
+
+
+.caption-1 {
+    grid-area: caption-1;
+    margin-top: 31%;
+}
+
+.caption-1 p {
+
+    font-weight: 300;
+    font-size: 16px;
+    width: 80%;
+}
+
+.caption-2 {
+    grid-area: caption-2;
+}
+
+.caption-2 p {
+    font-weight: 300;
+    font-size: 16px;
+    width: 60%;
+    margin-top: 0%;
+}
+
+.caption-3 {
+    grid-area: caption-3;
+}
+
+.caption-3 p {
+    font-weight: 300;
+    font-size: 16px;
+    width: 60%;
+    margin-top: 0%;
+}
+
+    .footer {
+        background-color: #FFEE3C;
+        padding: 2%;
+        margin-top: 15%;
+    }
+
+    .grid-container-3 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        grid-gap: 1px 1px;
+        grid-template-areas: "footer-icons" "hand-coded";
+    }
+
+    .footer-icons {
+        grid-area: footer-icons;
+    }
+
+    .footer-icons img {
+        width: 5%;
+        display: inline-block;
+        float: right;
+        padding-left: 1%;
+        padding-bottom: 1%;
+    }
+
+    .hand-coded {
+        grid-area: hand-coded;
+    }
+
+    .hand-coded p {
+        text-align: right;
+        font-weight: 600;
+        color: #a3dee8;
+        margin: 0%;
+        font-size: 15px;
+    }
+
+
+
+@media screen and (min-width: 2560px) and (orientation:landscape) {
+    
+    nav ul li a {
+        font-size: 25px;
+    }
+
+
+    .work h2 {
+        font-size: 35px;
+    }
+
+    .work p {
+        font-size: 25px;
+    }
+
+    .side-info h3 {
+
+        font-size: 30px;
+
+    }
+
+    .side-info p {
+        font-size: 25px;
+    }
+
+    .subtitle h2 {
+        margin-top: 5%;
+        font-size: 30px;
+    }
+
+    .description p {
+        padding-top: 1%;
+        font-size: 25px;
+        padding-top: 4%;
+        padding-bottom: 5%;
+
+    }
+    
+    .caption-1 p{
+        font-size: 25px;
+    }
+    
+    .caption-2 p{
+        font-size: 25px;
+    }
+    
+    .caption-3 p{
+        font-size: 25px;
+    }
+    
+.footer {
+    background-color: #FFEE3C;
+    padding: 2%;
+    }
+
+.grid-container-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        grid-gap: 1px 1px;
+        grid-template-areas: "footer-icons" "hand-coded";
+    }
+
+    .footer-icons {
+        grid-area: footer-icons;
+    }
+
+    .footer-icons img {
+        width: 5%;
+        display: inline-block;
+        float: right;
+        padding-left: 1%;
+        padding-bottom: 1%;
+    }
+
+    .hand-coded {
+        grid-area: hand-coded;
+    }
+
+    .hand-coded p {
+        text-align: right;
+        font-weight: 600;
+        color: #a3dee8;
+        margin: 0%;
+        padding-top: 0%;
+        font-size: 25px;
+    }
+
+
+    
+}
+
+
+@media screen and (max-width: 1024px) and (orientation:portrait) {
+
+    .logo {
+        width: 10%;
+        margin-left: 2%;
+        margin-top: 3%;
+    }
+
+    nav ul {
+        padding-top: 6%;
+        padding-bottom: 6%;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    .content .grid-container {
+        padding-top: 17%;
+    }
+
+
+    .work {
+        margin-left: 10%;
+    }
+
+    .work h2 {
+        font-size: 25px;
+    }
+
+    .work p {
+        font-size: 20px;
+    }
+
+    .side-info h3 {
+        font-size: 22px;
+    }
+
+    .side-info p {
+        font-size: 20px;
+    }
+
+    .picture {
+        padding-bottom: 45%;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+
+    .subtitle h2 {
+        font-size: 25px;
+        margin-left: 8%;
+        margin-top: 6%;
+        width: 30%;
+    }
+
+    .description p {
+        font-size: 20px;
+        width: 60%;
+    }
+
+    .caption-2 p {
+        width: 70%;
+        
+    }
+    
+    
+    .grid-container2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto auto auto auto;
+        grid-gap: 10px 1px;
+        grid-template-areas: "process-pic-1 process-pic-1 process-pic-1" "caption-1 caption-1 caption-1" "process-pic-2 process-pic-2 process-pic-2" "caption-2 caption-2 caption-2" "process-pic-3 process-pic-3 process-pic-3" "caption-3 caption-3 caption-3";
+    }
+    .process-pic-1 {
+        grid-area: process-pic-1;
+        margin-top: 7%;
+    }
+
+    .process-pic-1 img {
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .caption-1 {
+        grid-area: caption-1;
+        margin-top: 0%;
+    }
+
+
+    .caption-1 p {
+
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 20px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .process-pic-2 {
+        grid-area: process-pic-2;
+    }
+
+    .process-pic-2 img {
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .caption-2 {
+        grid-area: caption-2;
+    }
+
+    .caption-2 p {
+
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+        font-size: 20px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .process-pic-3 {
+        grid-area: process-pic-3;
+    }
+
+    .process-pic-3 img {
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .caption-3 {
+        grid-area: caption-3;
+    }
+
+    .caption-3 p {
+
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 20px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+
+.footer {
+background-color: #FFEE3C;
+padding: 2%;
+}
+.grid-container-3 {
+display: grid;
+grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        grid-gap: 1px 1px;
+        grid-template-areas: "footer-icons" "hand-coded";
+    }
+
+    .footer-icons {
+        grid-area: footer-icons;
+    }
+
+    .footer-icons img {
+        width: 8%;
+        display: inline-block;
+        float: right;
+        padding-left: 1%;
+        padding-bottom: 1%;
+    }
+
+    .hand-coded {
+        grid-area: hand-coded;
+    }
+
+    .hand-coded p {
+        text-align: right;
+        font-weight: 600;
+        color: #a3dee8;
+        margin: 0%;
+        font-size: 17px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 768px) and (orientation:portrait) {
+
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+
+    .grid-container {
+        grid-template-areas: "work work work" "picture picture picture" "writing writing writing";
+        grid-gap: 50px 1px;
+    }
+
+    .work {
+        grid-area: work;
+        margin-left: 10%;
+        width: 80%;
+
+    }
+    .work h2 {
+        font-size: 25px;
+    }
+
+    .work p {
+
+        font-size: 17px;
+        font-weight: 300;
+    }
+
+    .side-info {
+        display: none;
+    }
+    .work-2 {
+        display: block;
+    }
+    .work-2 h3 {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 0%;
+        margin-top: 7%;
+    }
+
+    .work-2 p {
+        font-size: 17px;
+        padding: 0%;
+        margin: 0%;
+    }
+
+
+    .subtitle h2 {
+        font-weight: 300;
+        color: black;
+        font-size: 22px;
+        width: 50%;
+        margin-left: 10%;
+    }
+
+    .description p {
+        font-size: 17px;
+        padding-top: 10%;
+        margin-left: 10%;
+        width: 80%;
+    }
+
+
+    .grid-container2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto auto auto auto;
+        grid-gap: 10px 1px;
+        grid-template-areas: "process-pic-1 process-pic-1 process-pic-1" "caption-1 caption-1 caption-1" "process-pic-2 process-pic-2 process-pic-2" "caption-2 caption-2 caption-2" "process-pic-3 process-pic-3 process-pic-3" "caption-3 caption-3 caption-3";
+    }
+    .process-pic-1 {
+        grid-area: process-pic-1;
+        margin-top: 7%;
+    }
+
+    .process-pic-1 img {
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .caption-1 {
+        grid-area: caption-1;
+        margin-top: 0%;
+    }
+
+
+    .caption-1 p {
+
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 17px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .process-pic-2 {
+        grid-area: process-pic-2;
+    }
+
+    .process-pic-2 img {
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .caption-2 {
+        grid-area: caption-2;
+    }
+
+    .caption-2 p {
+
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 17px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .process-pic-3 {
+        grid-area: process-pic-3;
+    }
+
+    .process-pic-3 img {
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .caption-3 {
+        grid-area: caption-3;
+    }
+
+    .caption-3 p {
+
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 17px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    
+.footer {
+background-color: #FFEE3C;
+padding: 2%;
+    }
+.grid-container-3 {
+display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        grid-gap: 1px 1px;
+        grid-template-areas: "footer-icons" "hand-coded";
+    }
+
+    .footer-icons {
+        grid-area: footer-icons;
+    }
+
+    .footer-icons img {
+        width: 8%;
+        display: inline-block;
+        float: right;
+        padding-left: 1%;
+        padding-bottom: 1%;
+    }
+
+    .hand-coded {
+        grid-area: hand-coded;
+    }
+
+    .hand-coded p {
+        text-align: right;
+        font-weight: 600;
+        color: #a3dee8;
+        margin: 0%;
+        font-size: 17px;
+    }
+
+}
+
+
+@media screen and (max-width: 540px) and (orientation:portrait) {
+    .logo {
+        width: 12%;
+        margin-top: -10%;
+        padding-left: 0%;
+
+    }
+
+    nav ul {
+        max-height: 0px;
+        background: white;
+        margin-top: -1%;
+        padding-right: 0%;
+        padding-left: 0%;
+        padding-top: 5%;
+        padding-bottom: 0%;
+    }
+
+    nav.black ul {
+        background: white;
+    }
+
+    .showing {
+        max-height: 40em;
+        padding-bottom: 5%;
+
+    }
+
+    nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        text-align: center;
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+
+
+    .menu-icon {
+        padding-top: 5%;
+        display: block;
+        color: #a3dee8;
+        padding-right: 5%
+    }
+
+
+    .grid-container {
+        grid-gap: 30px 1px;
+    }
+
+    .work h2 {
+        font-size: 25px;
+    }
+
+    .work p {
+
+        font-size: 17px;
+    }
+
+    .side-info {
+        display: none;
+    }
+    .work-2 {
+        display: block;
+    }
+    .work-2 h3 {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 0%;
+        margin-top: 7%;
+    }
+
+    .work-2 p {
+        font-size: 17px;
+    }
+
+
+    .picture img {
+        width: 80%;
+    }
+
+
+    .subtitle h2 {
+        font-size: 22px;
+    }
+
+    .description p {
+        font-size: 17px;
+    }
+
+    .process-pic-1 img {
+        width: 80%;
+    }
+
+    .process-pic-2 img {
+        width: 80%;
+    }
+
+    .process-pic-3 img {
+        width: 80%;
+    }
+
+    .caption-1 p {
+        width: 80%;
+    }
+    .caption-2 p {
+        width: 80%;
+    }
+    .caption-3 p {
+        width: 80%;
+    }
+
+.footer {
+background-color: #FFEE3C;
+padding: 4% 2%;
+    }
+    .grid-container-3 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        grid-gap: 1px 1px;
+        grid-template-areas: "footer-icons" "hand-coded";
+    }
+
+    .footer-icons {
+        grid-area: footer-icons;
+    }
+
+    .footer-icons img {
+        width: 14%;
+        display: inline-block;
+        float: right;
+        padding-left: 2%;
+        padding-bottom: 1%;
+    }
+
+    .hand-coded {
+        grid-area: hand-coded;
+
+    }
+
+    .hand-coded p {
+        font-weight: 600;
+        color: #a3dee8;
+        margin: 0%;
+        font-size: 17px;
+        width: 60%;
+        float: right;
+    }
+
+
+
+
+}
+
+@media screen and (max-width:420px) and (orientation:portrait) {
+
+    .footer {
+        background-color: #FFEE3C;
+        padding: 5% 3%;
+    }
+    .grid-container-3 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        grid-gap: 1px 1px;
+        grid-template-areas: "footer-icons" "hand-coded";
+    }
+
+    .footer-icons {
+        grid-area: footer-icons;
+    }
+
+    .footer-icons img {
+        width: 14%;
+        display: inline-block;
+        float: right;
+        padding-left: 2%;
+        padding-bottom: 2%;
+    }
+
+    .hand-coded {
+        grid-area: hand-coded;
+
+    }
+
+    .hand-coded p {
+        font-weight: 600;
+        color: #a3dee8;
+        margin: 0%;
+        font-size: 15px;
+        width: 80%;
+        float: right;
+    }
+}
+
+
+
+@media screen and (max-width: 1024px) and (orientation:landscape) {
+
+    .grid-container {
+        grid-gap: 50px 1px;
+    }
+    
+.picture {
+    grid-area: picture;
+    overflow: hidden;
+    padding-bottom: 40%;
+    position: relative;
+    height: 0;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 0%;
+}
+    
+    .description p{
+        font-size: 15px;
+    }
+    
+    
+    .grid-container2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto auto auto auto;
+        grid-gap: 10px 1px;
+        grid-template-areas: "process-pic-1 process-pic-1 process-pic-1" "caption-1 caption-1 caption-1" "process-pic-2 process-pic-2 process-pic-2" "caption-2 caption-2 caption-2" "process-pic-3 process-pic-3 process-pic-3" "caption-3 caption-3 caption-3";
+    }
+    .process-pic-1 {
+        grid-area: process-pic-1;
+        margin-top: 7%;
+    }
+
+    .process-pic-1 img {
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .caption-1 {
+        grid-area: caption-1;
+        margin-top: 0%;
+    }
+
+
+    .caption-1 p {
+
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 16px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .process-pic-2 {
+        grid-area: process-pic-2;
+    }
+
+    .process-pic-2 img {
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .caption-2 {
+        grid-area: caption-2;
+    }
+
+    .caption-2 p {
+
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+        font-size: 16px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .process-pic-3 {
+        grid-area: process-pic-3;
+    }
+
+    .process-pic-3 img {
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .caption-3 {
+        grid-area: caption-3;
+    }
+
+    .caption-3 p {
+
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      font-size: 16px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .footer {
+        background-color: #FFEE3C;
+        padding: 2%;
+    }
+    .grid-container-3 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        grid-gap: 1px 1px;
+        grid-template-areas: "footer-icons" "hand-coded";
+    }
+
+    .footer-icons {
+        grid-area: footer-icons;
+    }
+
+    .footer-icons img {
+        width: 6%;
+        display: inline-block;
+        float: right;
+        padding-left: 1%;
+        padding-bottom: 1%;
+    }
+
+    .hand-coded {
+        grid-area: hand-coded;
+    }
+
+    .hand-coded p {
+        text-align: right;
+        font-weight: 600;
+        color: #a3dee8;
+        margin: 0%;
+        font-size: 17px;
+    }
+
+
+}
+
+@media screen and (max-width: 823px) and (orientation:landscape) {
+    .logo {
+        width: 6%;
+        margin-top: 2%;
+    }
+
+
+    .grid-container {
+        grid-gap: 50px 1px;
+    }
+
+    
+.picture {
+    padding-bottom: 40%;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+    
+    .subtitle h2 {
+        margin-top:6%;
+        
+    }
+    
+    .caption-1 p{
+        width:70%;
+    }
+    
+    .caption-2 p{
+        width:70%;
+    }
+    
+    .caption-3 p{
+        width:70%;
+    }
+    
+
+}
+
+
+@media screen and (max-width: 670px) and (orientation:landscape) {
+
+    .footer {
+        background-color: #FFEE3C;
+        padding: 2%;
+    }
+    .grid-container-3 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        grid-gap: 1px 1px;
+        grid-template-areas: "footer-icons" "hand-coded";
+    }
+
+    .footer-icons {
+        grid-area: footer-icons;
+    }
+
+    .footer-icons img {
+        width: 8%;
+        display: inline-block;
+        float: right;
+        padding-left: 1%;
+        padding-bottom: 1%;
+    }
+
+    .hand-coded {
+        grid-area: hand-coded;
+    }
+
+    .hand-coded p {
+        text-align: right;
+        font-weight: 600;
+        color: #a3dee8;
+        margin: 0%;
+        font-size: 17px;
+    }
+
+
+}
+
+@media screen and (max-width: 640px) and (orientation:landscape) {
+
+
+    .grid-container {
+        grid-template-areas: "work work work" "picture picture picture" "writing writing writing";
+        grid-gap: 50px 1px;
+    }
+    .work {
+        grid-area: work;
+        margin-left: 10%;
+        width: 80%;
+
+    }
+    .work h2 {
+        font-size: 25px;
+    }
+
+    .work p {
+        font-size: 17px;
+    }
+
+    .side-info {
+        display: none;
+    }
+    .work-2 {
+        display: block;
+    }
+    .work-2 h3 {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 0%;
+        margin-top: 7%;
+    }
+
+    .work-2 p {
+        font-size: 17px;
+        padding: 0%;
+        margin: 0%;
+    }
+
+.picture {
+    padding-bottom: 40%;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+
+
+    .subtitle h2 {
+        font-weight: 300;
+        color: black;
+        font-size: 22px;
+        width: 50%;
+        margin-left: 10%;
+        
+    }
+
+    .description p {
+        font-size: 17px;
+        padding-top: 10%;
+        margin-left: 10%;
+        width: 80%;
+    }
+    
+
+    .grid-container2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto auto auto auto auto auto;
+        grid-gap: 10px 1px;
+        grid-template-areas: "process-pic-1 process-pic-1 process-pic-1" "caption-1 caption-1 caption-1" "process-pic-2 process-pic-2 process-pic-2" "caption-2 caption-2 caption-2" "process-pic-3 process-pic-3 process-pic-3" "caption-3 caption-3 caption-3" "process-pic-4 process-pic-4 process-pic-4" "caption-4 caption-4 caption-4";
+    }
+    .process-pic-1 {
+        grid-area: process-pic-1;
+        margin-top: 7%;
+    }
+
+    .process-pic-1 img {
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .caption-1 {
+        grid-area: caption-1;
+        margin-top:0%;
+    }
+    
+    .caption-1 p{
+        
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 17px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .process-pic-2 {
+        grid-area: process-pic-2;
+    }
+    
+    .process-pic-2 img {
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .caption-2 {
+        grid-area: caption-2;
+    }
+    
+    .caption-2 p{
+        
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 17px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .process-pic-3 {
+        grid-area: process-pic-3;
+    }
+    
+    .process-pic-3 img {
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .caption-3 {
+        grid-area: caption-3;
+    }
+    
+    .caption-3 p{
+        
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 17px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .process-pic-4 {
+        grid-area: process-pic-4;
+    }
+    
+    .process-pic-4 img {
+        width: 70%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .caption-4 {
+        grid-area: caption-4;
+    }
+
+
+}
+
+

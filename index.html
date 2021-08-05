@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Justice Victoriano Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="Images/Logo.svg">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+
+            <nav>
+                <div class="menu-icon">
+                    <i class="fa fa-bars fa-2x"></i>
+                </div>
+                <div class="logo">
+                    <a href="index.html"><img src="Images/Logo.svg"></a>
+                </div>
+                <div class="menu">
+                    <ul>
+                        
+                        <li><a href="animation.html">ANIMATION</a></li>
+                        <li><a href="design.html">DESIGN</a></li>
+                        <li><a href="video.html">VIDEO</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="name">
+
+                <div class="name-2">
+                    <img src="Images/JUSTICE-VICTORIANO-2.svg">
+                </div>
+                <div class="name-1">
+                    <img src="Images/JUSTICE-VICTORIANO.svg">
+                </div>
+            </div>
+
+        </header>
+        
+        <div class="showreel">
+        <iframe src="https://player.vimeo.com/video/539206668" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        
+        </div>
+        
+        <div class="Today">
+           <iframe src="https://player.vimeo.com/video/583470133" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+
+
+        <div class="me">
+            <img src="Images/Me.png">
+            <p>
+                Welcome to my portfolio! My name is Justice Victoriano and I am a motion designer and animator. Like many artists, I am not alone in saying that I have always had a passion for art—how could I not? Growing up, my favorite mediums were graphite and acrylic, but in college, I discovered the various ways that art can be expressed through technology. This opened up a whole new world for me and soon enough, I became a believer in the power of digital art. This portfolio serves as the manifestation of my growth as a creative and evidence of my artistic passion. Every work I present here is a labor of love.
+                <br>
+                <br>
+                I graduated with a B.A. in Interactive Multimedia and minors in Graphic Design and Marketing from The College of New Jersey. I am currently producing graphics for an upcoming web series for NBC Peacock Kids. My skills range from conceptualizing, storyboarding, developing and animating 2D graphics, video-editing, and graphic design, utilizing a variety of platforms including After Effects, Photoshop, Illustrator, and Premiere Pro. I am passionate about visual storytelling, and always implement my creative ideas and attention to detail to bring a story to life.
+            </p>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="buttons">
+        <div class="button-1">
+        </div>
+        <div class="button-2">
+
+            <a href="https://www.linkedin.com/in/justice-victoriano-abb01215a" target="_blank">
+                <img src="Images/linkedin.svg"></a>
+
+            <a href="mailto:victorianojustice4@gmail.com"><img src="Images/email-icon.svg"></a>
+
+        </div>
+    </div>
+
+
+    <div class="square-grid">
+        <div class="square-1">
+        </div>
+        <div class="square-2">
+            <a href="recruitment.html"><img src="Images/home-video.png">
+  <figcaption>RECRUITMENT VIDEO </figcaption></a>
+            <a href="2d-animation.html"><img src="Images/home-animation.png">
+  <figcaption>2D ANIMATION</figcaption></a>
+            <a href="type-specimen.html"><img src="Images/home-design.png">
+  <figcaption>TYPE SPECIMEN BOOKLET</figcaption></a>
+        </div>
+        <div class="square-3">
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="grid-container-3">
+            <div class="footer-icons">
+                <a href="mailto:justicevictoriano11498@gmail.com"><img src="Images/email-icon-footer.svg"></a>
+                <a href="https://www.linkedin.com/in/justice-victoriano-abb01215a" target="_blank"> <img src="Images/linkedin-footer.svg"></a>
+            </div>
+            <div class="hand-coded">
+                <p>This site was designed and hand-coded by Justice Victoriano.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                $("nav ul").toggleClass("showing");
+            });
+
+        });
+
+        $(window).on("scroll", function() {
+            if ($(window).scrollTop()) {
+                $('nav').addClass('black');
+            } else {
+                $('nav').removeClass('black');
+            }
+        })
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>To Our Frontliners</title>
+    <link rel="stylesheet" href="frontliners.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="Images/Logo.svg">
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header>
+            <nav>
+                <div class="menu-icon">
+                    <i class="fa fa-bars fa-2x"></i>
+                </div>
+                <div class="logo">
+                    <a href="index.html"><img src="Images/Logo.svg"></a>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="design.html">DESIGN</a></li>
+                        <li><a href="video.html">VIDEO</a></li>
+                        <li><a href="animation.html">ANIMATION</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <div class="content">
+        <div class="grid-container">
+            <div class="work">
+                <h2>TO OUR FRONTLINERS</h2>
+                <p>The video features the sisters of Theta Phi Alpha from The College of New Jersey thanking essential workers for their hard work. The organization’s chaplain and I wrote the script, and each clip was recorded by the speaker. I edited the video using Premiere Pro. The video is posted on the organization’s official YouTube page and shared on Instagram and Facebook.
+                    <br>
+                    <br> Click <a href="https://www.youtube.com/watch?v=kO9Xye93qOA">Here</a> to view the video on Theta Phi Alpha's offical YouTube channel. </p>
+
+                <div class="work-2">
+                    <h3>YEAR</h3>
+                    <p>2020</p>
+                    <h3>SOFTWARES USED</h3>
+                    <p>Premiere Pro
+                    </p>
+                </div>
+            </div>
+            <div class="side-info">
+                <h3>YEAR</h3>
+                <p>2020</p>
+                <h3>SOFTWARES USED</h3>
+                <p>Premiere Pro
+                </p>
+            </div>
+            <div class="picture">
+                <iframe src="https://player.vimeo.com/video/424170416" width="864" height="486" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            </div>
+            <div class="writing">
+               
+            <div class="subtitle">
+                <h2>THE IDEA</h2>
+            </div>
+               
+            <div class="description">
+                <p>The idea of making a thank you video emerged when one of the members of the organization shared how her mother, a nurse, had become very overwhelmed by the conditions of her work environment. In response, the organization wanted to create a thank you video expressing their gratitude to her and all essential workers. </p>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <div class="script">
+        <img src="Images/frontliners-1.png">
+        <h4>Script</h4>
+        <p>
+            On behalf of the sisters of Theta Phi Alpha, the Beta Beta chapter, we wanted to extend our love to you.
+            <br> To the nurses, working endless hours to ensure our safety, thank you.
+            <br> To the doctors, working tirelessly to heal us and find a cure, thank you.
+            <br> To the food service employees, working early mornings stocking and delivering our food, thank you.
+            <br> To the firefighters, responding to calls and still spreading joy through holiday runs and birthday parades, thank you.
+            <br> To the EMT’s, being the first to provide medical service and responding to your pagers at all hours, thank you.
+            <br> To the police officers, keeping our towns safe and your residents smiling, thank you.
+            <br> To the public transport operators, for protecting their passengers and guiding them to their destinations, thank you.
+            <br> To the teachers, bringing their classrooms into their homes and planning for their students from afar, thank you.
+            <br> To the families, making memories at home and doing your part in slowing the spread, thank you.
+            <br> To all our essential workers, thank you for your daily dedication and sacrifice.
+            <br> We are in awe of your courage.
+            <br> As you continue to fight this battle, we will continue to keep you in our thoughts and prayers,
+            <br> and appreciate your skills and your sacrifice.
+            <br> From the bottom of our hearts,
+            <br> thank you. </p>
+    </div>
+
+
+    <div class="footer">
+        <div class="grid-container-3">
+            <div class="footer-icons">
+                <a href="mailto:victorianojustice4@gmail.com"><img src="Images/email-icon-footer.svg"></a>
+                <a href="https://www.linkedin.com/in/justice-victoriano-abb01215a" target="_blank"> <img src="Images/linkedin-footer.svg"></a>
+            </div>
+            <div class="hand-coded">
+                <p>This site was designed and hand-coded by Justice Victoriano.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                $("nav ul").toggleClass("showing");
+            });
+
+        });
+
+        $(window).on("scroll", function() {
+            if ($(window).scrollTop()) {
+                $('nav').addClass('black');
+            } else {
+                $('nav').removeClass('black');
+            }
+        })
+
+    </script>
+
+</body>
+
+</html>
