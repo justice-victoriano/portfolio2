@@ -41,7 +41,7 @@ header {
 nav {
     position: fixed;
     width: 100%;
-    z-index:1;
+    z-index: 1;
 
 }
 
@@ -99,9 +99,30 @@ nav ul li a {
     margin-right: 15%;
     margin-left: 15%;
     margin-top: 10%;
+    
+}
+
+.Today {
+    grid-area: picture;
+    overflow: hidden;
+    padding-bottom: 30%;
+    position: relative;
+    height: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 5%;
+    
 }
 
 .showreel iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.Today iframe {
     left: 0;
     top: 0;
     height: 100%;
@@ -558,6 +579,13 @@ nav ul li a {
     margin-left: 0%;
 }
 
+      
+.Today {
+    padding-bottom: 50%;
+    margin-right: 0%;
+    margin-left: 0%;
+}
+
 
     .me img {
         width: 70%;
@@ -929,6 +957,12 @@ nav ul li a {
     
     
 .showreel {
+    padding-bottom: 40%;
+    margin-right: 0%;
+    margin-left: 0%;
+}
+
+.Today {
     padding-bottom: 40%;
     margin-right: 0%;
     margin-left: 0%;
